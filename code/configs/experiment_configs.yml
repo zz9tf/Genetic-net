@@ -1,0 +1,12 @@
+experiment_task_num: 1 # tell experiment method which task part to execute
+experiment_dir: save/experiment # the path to save experiment results
+
+##### Individual experiment configs #####
+experiment_example:
+  example_data_sets:
+    - test
+    - valid
+  number_config_example: 0.7
+#########################################
+experiment_with_no_input_configs: 
+  None: null
